@@ -1,0 +1,26 @@
+COMO INICIAR E CONECTAR
+=======================
+
+1. Tenha Java 8 instalado.
+2. Coloque uma build Spigot 1.8.8 chamada server.jar nesta pasta.
+3. Execute iniciar-servidor.bat e aceite o EULA no arquivo eula.txt (eula=true).
+4. Inicie novamente o servidor.
+5. Instale o plugin BedWars189.jar dentro de plugins/ (compile o projeto com Maven).
+
+Conexão na mesma máquina:
+  localhost:25565
+
+Conexão na mesma rede:
+  Use o IPv4 local do computador que hospeda, por exemplo 192.168.x.x:25565.
+  Descubra com ipconfig no Prompt de Comando.
+
+Conexão pela Internet:
+  O servidor precisa estar ligado e acessível. Configure encaminhamento da porta TCP 25565
+  no roteador para o IPv4 local do computador, permita Java/porta 25565 no Firewall do
+  Windows e compartilhe seu IPv4 público com os jogadores. O endereço público pode mudar.
+  Se a operadora usar CGNAT, encaminhamento de portas não funciona; use uma hospedagem
+  de Minecraft ou peça um IPv4 público à operadora.
+
+Não preencha server-ip em server.properties: deixe vazio para o servidor escutar nas
+interfaces de rede disponíveis. Não compartilhe o IPv4 público se não quiser expor sua rede.
+

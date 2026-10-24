@@ -1,0 +1,8 @@
+name: BedWars189
+main: br.com.bedwars189.BedWars
+version: 1.0.0
+commands:
+  bw:
+    description: BedWars arena controls
+    usage: /bw <join red|blue|leave|setbed red|blue|setspawn red|blue|start>
+
